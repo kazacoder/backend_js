@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aqua;
+}
+
+.products {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.products .product {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+.products .product .title {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.products .product .description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.products .product .price {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
