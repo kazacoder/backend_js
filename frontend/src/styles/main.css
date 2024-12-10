@@ -14,22 +14,25 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-.products .product {
+
+.product {
+  text-decoration: none;
   width: 200px;
   border: 1px solid black;
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
 }
-.products .product .title {
+.product .title {
   font-size: 26px;
   margin-bottom: 10px;
 }
-.products .product .description {
+.product .description {
   font-size: 20px;
   margin-bottom: 10px;
 }
-.products .product .price {
+.product .price {
   font-size: 30px;
 }
 
+/*# sourceMappingURL=main.css.map */

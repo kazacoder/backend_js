@@ -15,8 +15,9 @@ export class Products {
     fillProducts(products) {
         if (products && products.length > 0) {
             products.forEach(product => {
-                const productElement  = document.createElement('div');
+                const productElement  = document.createElement('a');
                 productElement.classList.add('product');
+                productElement.href = `/#/product?id=${product.id}`;
 
                 const titleElement = document.createElement('div');
                 titleElement.classList.add('title');

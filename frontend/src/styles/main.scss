@@ -13,26 +13,27 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
 
-    .product {
-        width: 200px;
-        border: 1px solid black;
-        border-radius: 10px;
-        padding: 20px;
-        margin: 20px;
+.product {
+    text-decoration: none;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
 
-        .title {
-            font-size: 26px;
-            margin-bottom: 10px;
-        }
+    .title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
 
-        .description {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
+    .description {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
 
-        .price {
-            font-size: 30px;
-        }
+    .price {
+        font-size: 30px;
     }
 }
